@@ -1,6 +1,6 @@
 # mongoplayground-api
 
-`mongoplayground-api` is an unofficial API Wrapper for [mongoplayground-api.net](https://mongoplayground-api.net/) REPL website
+`mongoplayground-api` is an unofficial API Wrapper for [mongoplayground.net](https://mongoplayground.net/) REPL website
 
 ## Installation
 

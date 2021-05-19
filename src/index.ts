@@ -24,7 +24,7 @@ const run = <T = any, Opts extends Options = Options>(
 		const req = https.request(
 			{
 				method: "POST",
-				hostname: "mongoplayground-api.net",
+				hostname: "mongoplayground.net",
 				port: 443,
 				path: "/run",
 				headers: { "content-type": "application/x-www-form-urlencoded" },
