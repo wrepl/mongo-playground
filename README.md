@@ -171,7 +171,7 @@ const configuration = [
 const query = "db.collection.find()";
 
 const results = await mongo(configuration, query, {
-	mgodatagen: true,
+  mode: "mgodatagen",
 	// since the query result will have ObjectID's and it can't be parsed as JSON, need to set `raw` to true so it will return the results in string instead
 	raw: true, 
 });
