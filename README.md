@@ -4,7 +4,7 @@
 
 ## Installation
 
-`npm i mongo-playground`
+`npm i mongoplayground`
 
 
 ## Usage and Examples
