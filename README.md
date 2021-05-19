@@ -1,10 +1,10 @@
-# mongoplayground
+# mongoplayground-api
 
-`mongoplayground` is an unofficial API Wrapper for [mongoplayground.net](https://mongoplayground.net/) REPL website
+`mongoplayground-api` is an unofficial API Wrapper for [mongoplayground-api.net](https://mongoplayground-api.net/) REPL website
 
 ## Installation
 
-`npm i mongoplayground`
+`npm i mongoplayground-api`
 
 
 ## Usage and Examples
@@ -12,7 +12,7 @@
 ### Simple Query
 
 ```js
-import { run as mongo } from "mongoplayground"; 
+import { run as mongo } from "mongoplayground-api"; 
 
 const configuration = [{ _id: 1 }, { _id: 2 }];
 const query = "db.collection.find()";
@@ -33,7 +33,7 @@ const results = await mongo(configuration, query);
 ### Multi Collection Query
 
 ```js
-import { run as mongo } from "mongoplayground";
+import { run as mongo } from "mongoplayground-api";
 
 const configuration = {
 	orders: [
@@ -153,7 +153,7 @@ const results = await mongo(configuration, query);
 ### Using mgodatagen
 
 ```js
-import { run as mongo } from "mongoplayground";
+import { run as mongo } from "mongoplayground-api";
 
 const configuration = [
 	{
@@ -224,7 +224,7 @@ const results = await mongo(configuration, query, {
 ### Raw String as Configuration
 
 ```js
-import { run as mongo } from "mongoplayground";
+import { run as mongo } from "mongoplayground-api";
 
 const configuration = `
 db={

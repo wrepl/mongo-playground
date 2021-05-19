@@ -1,5 +1,5 @@
 {
-	"name": "mongoplayground",
+	"name": "mongoplayground-api",
 	"version": "0.0.1",
 	"description": "Unofficial API Wrapper for Mongo Playground REPL Website",
 	"main": "dist/index.js",
